@@ -7,10 +7,11 @@ const Home = () => {
   return (
     <div className="home">
       <div>
-        <h1>Welcome to Userly</h1>
-        <button onClick={() => navigate('/users')}>Get started</button>
+        <h1>Welcome</h1>
+         <p className='copy-text'>Balify technologies Click the button below to meet our amazing users all over the world</p>
+        <button onClick={() => navigate('/users')}>Explore</button>
       </div>
-      <img src={users} alt="users" />
+     
     </div>
   );
 };
